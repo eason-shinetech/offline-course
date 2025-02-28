@@ -47,6 +47,6 @@ RUN ls -a
 # Install pm2
 RUN npm install pm2 -g
 
-EXPOSE 3005
+EXPOSE 3000
 
 CMD ["pm2-runtime", "server.js"]
